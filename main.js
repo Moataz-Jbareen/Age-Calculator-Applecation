@@ -33,7 +33,29 @@ const isValidDate = (date)=>{
 
 
 
+const ageInMilliseconds = today - birthDate;
+const ageInseconds = Math.floor(ageInMilliseconds/1000)
+const ageInMinutes = Math.floor(ageInseconds/60)
+const ageInHours = Math.floor(ageInMinutes/60)
+const ageInDays = Math.floor(ageInHours/24)
+const ageInWeeks=Math.floor(ageInDays/7)
+const ageInMothes = Math.floor(ageInDays/30.436875);
+const ageInYears = Math.floor(ageInDays/365.25); 
 
+
+
+
+result.innerHTML =
+`
+<div class="res-item" id="res-item">
+<h3>Age</h3>
+<p>${ageInYears} ${ageInMothes} months ${ageInDays % 30} days</p>
+</div>
+<hr>
+
+`
+
+resultContainer.style.display="block";
 
 }
 
