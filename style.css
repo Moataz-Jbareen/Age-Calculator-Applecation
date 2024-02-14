@@ -98,3 +98,11 @@ button:hover{
     margin-bottom: 10px;
 
 }
+
+
+hr{
+    height: 4px;  
+    width: 50%;
+    background-color:#333;  
+    border: none; 
+}
