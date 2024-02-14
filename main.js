@@ -49,7 +49,44 @@ result.innerHTML =
 `
 <div class="res-item" id="res-item">
 <h3>Age</h3>
-<p>${ageInYears} ${ageInMothes} months ${ageInDays % 30} days</p>
+<br>
+<p>${ageInYears} Years ${ageInMothes} months ${ageInDays % 30} days</p>
+</div>
+<hr>
+<div class="res-item" id="res-item">
+<h3>Months Passed</h3>
+<br>
+<p>${ageInMothes}</p>
+</div>
+<hr>
+<div class="res-item" id="res-item">
+<h3>Weeks Passed</h3>
+<br>
+<p>${ageInWeeks}</p>
+</div>
+<hr>
+<div class="res-item" id="res-item">
+<h3>Days Passed</h3>
+<br>
+<p>${ageInDays}</p>
+</div>
+<hr>
+<div class="res-item" id="res-item">
+<h3>Hours Passed</h3>
+<br>
+<p>${ageInHours}</p>
+</div>
+<hr>
+<div class="res-item" id="res-item">
+<h3>Minutes Passed</h3>
+<br>
+<p>${ageInMinutes}</p>
+</div>
+<hr>
+<div class="res-item" id="res-item">
+<h3>Seconds Passed</h3>
+<br>
+<p>${ageInseconds}</p>
 </div>
 <hr>
 
